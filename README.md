@@ -5,26 +5,32 @@ Protocol for JSON-based communication via HTTP GET between Android App and tado 
 
 Homepage: http://www.tado.com/de/
 
-Current endpoint for communication: https://my.tado.com/mobile/1.0
+Current endpoint for communication: https://my.tado.com/mobile/1.3
 
 
-    GET: /updateLocation
+    POST: /updateLocation
     request:
     {
-      "username": "",
-        "password": "",
-        "latitude": "",
-        "logitude": "",
-        "accuracy": "",
-        "appVersion": "",
-        "deviceName": "",
-        "devicePlatform": "",
-        "deviceUuid": "",
-        "deviceOsVer": "",
-        "deviceCordovaVer": ""
+        "mode": "APP_TRIGGERED",
+        "username": "",
+        "password":"",
+        "latitude:"xx.xxxx",
+        "longitude:"xx.xxxx"
+        "accuracy": "60.0",
+        "batteryLevel":" 53",
+        "debugString": "attempt-1-unsentFixes-0-"
     }
     response:
     {
+        "homeFence": "",
+        "homeGeolocationLatitude": "",
+        "homeGeolocationLongitude": "",
+        "minDistance": "",
+        "minTime": 120000
+        "regionDistances": Array[20],
+        "success": true|false,
+        "triggerInterval": "",
+        "wakeupInterval": ""
     }
 
 
