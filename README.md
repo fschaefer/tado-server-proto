@@ -25,6 +25,15 @@ Current endpoint for communication: https://my.tado.com/mobile/1.0
     }
     response:
     {
+        "homeFence": "",
+        "homeGeolocationLatitude": "",
+        "homeGeolocationLongitude": "",
+        "minDistance": "",
+        "minTime": 120000
+        "regionDistances": Array[20],
+        "success": true|false,
+        "triggerInterval": "",
+        "wakeupInterval": ""
     }
 
 
