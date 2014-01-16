@@ -8,7 +8,7 @@ Homepage: http://www.tado.com/de/
 Current endpoint for communication: https://my.tado.com/mobile/1.3
 
 
-    GET: /updateLocation
+    POST: /updateLocation
     request:
     {
         "mode": "APP_TRIGGERED",
