@@ -131,6 +131,13 @@ Current endpoint for communication: https://my.tado.com/mobile/1.3
         "sleepTemp": "",
         "comfortLevel": "",
         "deactivateHomeButton": ""
+        "hotWaterControl": true|false
+        "hotWaterMode": ""
+        "hotWaterTemp": ""
+        "hotWaterTempControl": true|false
+        "minAwayTemp": ""
+
+success: true
     }
 
 
