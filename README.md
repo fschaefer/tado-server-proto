@@ -101,11 +101,19 @@ Current endpoint for communication: https://my.tado.com/mobile/1.3
     }
     response:
     {
-        "operation": "",
-        "insideTemp": "",
-        "setPointTemp": "",
-        "controlPhase": "",
-        "currentUserPrivacyEnabled": true|false
+        "boxConnected: true|false
+        "controlPhase: ""
+        "currentUserGeoStale: ""
+        "currentUserPrivacyEnabled": ""
+        "deviceUpdating": true|false
+        "gwConnected": true|false
+        "homeId": ""
+        "insideTemp": ""
+        "operation": ""
+        "operationTrigger": ""
+        "setPointTemp": ""
+        "success": true|false
+        "tsConnected": true|false    
     }
 
 
@@ -123,6 +131,13 @@ Current endpoint for communication: https://my.tado.com/mobile/1.3
         "sleepTemp": "",
         "comfortLevel": "",
         "deactivateHomeButton": ""
+        "hotWaterControl": true|false
+        "hotWaterMode": ""
+        "hotWaterTemp": ""
+        "hotWaterTempControl": true|false
+        "minAwayTemp": ""
+
+success: true
     }
 
 
