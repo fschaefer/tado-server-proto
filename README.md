@@ -136,8 +136,7 @@ Current endpoint for communication: https://my.tado.com/mobile/1.3
         "hotWaterTemp": ""
         "hotWaterTempControl": true|false
         "minAwayTemp": ""
-
-success: true
+        "success": true
     }
 
 
